@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "✏️ Powerful Creative Workbench for Writers.",
   "main": "index.js",
+  "bin": {
+    "w": "./bin/w"
+  },
   "scripts": {
+    "cf-add": "./node_modules/.bin/cf add --output=./src/commands --template=./src/commands/cmd.tpl",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cf-add": "./node_modules/.bin/cf add --output=./src/commands --template=./src/commands/cmd.tpl"
+    "lint": "./node_modules/.bin/eslint --ext .js src/** --fix",
+    "dev": "./node_modules/.bin/rimraf ./lib && ./node_modules/.bin/babel src/commands --out-dir lib/commands --watch",
+    "build": "./node_modules/.bin/rimraf ./lib && ./node_modules/.bin/babel src/commands --out-dir lib/commands"
   },
   "repository": {
     "type": "git",
@@ -21,9 +27,14 @@
   },
   "homepage": "https://github.com/qddegtya/w#readme",
   "devDependencies": {
-    "@atools/cf": "^1.0.12"
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.30.0",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "debug": "^4.3.4"
+    "@atools/cf": "^1.0.12"
   }
 }

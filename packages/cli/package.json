@@ -1,0 +1,29 @@
+{
+  "name": "@a-writer/cli",
+  "version": "1.0.0",
+  "description": "✏️ Powerful Creative Workbench for Writers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cf-add": "./node_modules/.bin/cf add --output=./src/commands --template=./src/commands/cmd.tpl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qddegtya/w.git"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "xiaoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qddegtya/w/issues"
+  },
+  "homepage": "https://github.com/qddegtya/w#readme",
+  "devDependencies": {
+    "@atools/cf": "^1.0.12"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  }
+}

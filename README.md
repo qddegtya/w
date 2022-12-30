@@ -1,2 +1,3 @@
-# w
-✏️ I am a writer
+### About
+
+✏️ I am a writer.

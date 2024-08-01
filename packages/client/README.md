@@ -1,3 +1,3 @@
 ### About
 
-✏️ **Client** Powerful Creative Workbench for Writers.
+✏️ Powerful Creative Workbench (`Standalone-GUI-Client`) for Content Creator.

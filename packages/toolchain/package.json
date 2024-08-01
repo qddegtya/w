@@ -1,7 +1,7 @@
 {
-  "name": "@a-writer/cli",
+  "name": "@atools/w-toolchain",
   "version": "1.0.0",
-  "description": "✏️ Powerful Creative Workbench for Writers.",
+  "description": "Powerful Creative Workbench (`CLI Toolchain`) for Content Creator.",
   "main": "index.js",
   "bin": {
     "w": "./bin/w"

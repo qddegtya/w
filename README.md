@@ -1,3 +1,3 @@
 ### About
 
-✏️ I am a writer.
+✏️ Powerful Creative Workbench for Content Creator.
